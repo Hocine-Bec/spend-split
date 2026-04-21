@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{F8302FE8-A800-4028-AEBD-4F3C38BFC426}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{2036FC5B-2D7A-468E-A66B-4989AD87AF87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{B612EBE2-A258-4F68-BC5C-EE1FA54BF868}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8302FE8-A800-4028-AEBD-4F3C38BFC426}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8302FE8-A800-4028-AEBD-4F3C38BFC426}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8302FE8-A800-4028-AEBD-4F3C38BFC426}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8302FE8-A800-4028-AEBD-4F3C38BFC426}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2036FC5B-2D7A-468E-A66B-4989AD87AF87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2036FC5B-2D7A-468E-A66B-4989AD87AF87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2036FC5B-2D7A-468E-A66B-4989AD87AF87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2036FC5B-2D7A-468E-A66B-4989AD87AF87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B612EBE2-A258-4F68-BC5C-EE1FA54BF868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B612EBE2-A258-4F68-BC5C-EE1FA54BF868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B612EBE2-A258-4F68-BC5C-EE1FA54BF868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B612EBE2-A258-4F68-BC5C-EE1FA54BF868}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
