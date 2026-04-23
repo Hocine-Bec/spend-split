@@ -1,11 +1,13 @@
 using DotNetEnv;
 using Scalar.AspNetCore;
+using SpendSplit.WebAPI;
 
 Env.Load(); 
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container
+builder.Services.AddApplicationServices(builder.Configuration);
+
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 
@@ -31,6 +33,10 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseAuthentication();
+app.UseAuthorization();
+
 app.MapControllers();
 
 app.Run();

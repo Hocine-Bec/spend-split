@@ -56,3 +56,4 @@ nunit-*.xml
 .idea/.idea.spend-split/.idea/encodings.xml
 .idea/.idea.spend-split/.idea/indexLayout.xml
 *.lscache
+*.db
